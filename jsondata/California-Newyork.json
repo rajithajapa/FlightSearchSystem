@@ -1,0 +1,9 @@
+{"From" : "California to Newyork",
+	"flights" :[ {
+		"name" : "SouthWest Airlines",
+		"time" : "6 AM",
+		"fare" : "$300",
+		"stops" : 2
+	}
+	]
+}

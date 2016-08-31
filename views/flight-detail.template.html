@@ -1,0 +1,28 @@
+<div >
+<h1>List Of Available Flights</h1>
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Criteria</th>
+        <th>Travel</th>
+       <th>Name Of The Flight</th>
+        <th>Time</th>
+        <th>Fare</th>
+		<th>No.Of Stops</th>
+     </tr>
+    </thead>
+    <tbody>
+	
+      <tr  ng-repeat="availability in $ctrl.data.flights">
+        <td><button type="button">Select</button></td>
+        <td>{{$ctrl.data.From}}</td>
+        <td>{{availability.name}}</td>
+        <td>{{availability.time}}</td>
+        <td>{{availability.fare}}</td>
+		<td>{{availability.stops}}</td>
+		
+		</tr>
+    </tbody>
+  </table>
+</div>

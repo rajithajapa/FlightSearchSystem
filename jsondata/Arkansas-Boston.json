@@ -1,0 +1,17 @@
+{ 	"From" : "Arkansas to Boston",
+	"flights" :[ {
+		"name" : "SouthWest Airlines",
+		"time" : "6 AM",
+		"fare" : "$300",
+		"stops": 2
+	},
+	{
+		"name" : "American Airlines",
+		"time" : "8 AM",
+		"fare" : "$320",
+		"stops": 2
+	}
+	
+	]
+	
+}
